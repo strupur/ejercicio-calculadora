@@ -92,3 +92,28 @@ body {
     font-size: 40px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
+
+/* Media Query para Pantallas Más Pequeñas */
+
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .campo-input {
+        font-size: 1.5rem;
+        height: 40px;
+    }
+
+    .btn-operacion {
+        font-size: 1.5rem;
+        padding: 10px;
+        width: 50px;
+    }
+
+    .div-respuesta {
+        height: 80px;
+        font-size: 1.5rem;
+    }
+}
